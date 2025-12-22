@@ -1,18 +1,19 @@
-# Ege Üniversitesi Eduroam Setup Script (Linux)
+# Ege Üniversitesi Eduroam Setup Scripti (Linux)
 
-> ege universitesi rezaleti (Linux için çözüm)
+> ege universitesi rezaleti..
 
 Bu script, Ege Üniversitesi öğrencileri için Linux dağıtımlarında `nmcli` (NetworkManager) kullanarak Eduroam bağlantısını otomatik olarak yapılandırır.
 
 ## Gereksinimler
 
 *   NetworkManager (`nmcli` komutu)
-*   Linux tabanlı bir işletim sistemi (Arch, Ubuntu, Fedora, vb.)
-*   Wi-Fi adaptörü
 
 ## Kurulum ve Kullanım
 
 1.  Repo'yu klonlayın veya scripti indirin.
+    ```bash
+    git clone https://github.com/brnakblt/eduroam_ege_linux.git && cd eduroam_ege_linux
+    ```
 2.  Çalıştırma izni verin:
     ```bash
     chmod +x setup_eduroam.sh
@@ -21,7 +22,7 @@ Bu script, Ege Üniversitesi öğrencileri için Linux dağıtımlarında `nmcli
     ```bash
     ./setup_eduroam.sh
     ```
-4.  İstenildiğinde öğrenci numaranızı ve şifrenizi girin.
+5.  İstenildiğinde öğrenci numaranızı ve şifrenizi girin.
 
 ## Özellikler
 
@@ -29,7 +30,7 @@ Bu script, Ege Üniversitesi öğrencileri için Linux dağıtımlarında `nmcli
 *   Eski/Hatalı eduroam profillerini temizler.
 *   TTLS + PAP kimlik doğrulama yöntemini kullanır.
 *   Sertifika doğrulamasını devre dışı bırakır (bağlantı sorunlarını çözmek için).
-*   *Öğrenci dostu* hata mesajları içerir.
+*   *Kendi kafama göre oluşturduğum* hata mesajları içerir.
 
 ## Notlar
 
