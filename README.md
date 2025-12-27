@@ -1,7 +1,5 @@
 # Ege Üniversitesi Eduroam Setup Scripti (Linux)
 
-> ege universitesi rezaleti..
-
 Bu script, Ege Üniversitesi öğrencileri için Linux dağıtımlarında `nmcli` (NetworkManager) kullanarak Eduroam bağlantısını otomatik olarak yapılandırır.
 
 ## Gereksinimler
